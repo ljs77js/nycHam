@@ -12,6 +12,6 @@ class DataFilter:
         self.df.to_csv(output_file, index=False)
 
 # Using the class
-data_filter = DataFilter('EMS_Incident_Dispatch_Data.csv')
+data_filter = DataFilter('./EMS/EMS_Incident_Dispatch_Data.csv')
 data_filter.filter_by_borough('MANHATTAN')
 data_filter.save('manhattan_data.csv')
