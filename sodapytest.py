@@ -23,3 +23,5 @@ results = client.get("76xm-jjuj", limit=2000)
 
 # Convert to pandas DataFrame
 results_df = pd.DataFrame.from_records(results)
+
+# https://dev.socrata.com/foundry/data.cityofnewyork.us/76xm-jjuj
