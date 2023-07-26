@@ -131,3 +131,5 @@ dist
 
 EMS_Incident_Dispatch_Data.csv
 EMS/
+manhattan_data.csv
+manhattan_sorted_data.csv
