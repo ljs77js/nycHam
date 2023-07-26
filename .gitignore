@@ -130,7 +130,9 @@ dist
 .pnp.*
 
 EMS_Incident_Dispatch_Data.csv
+EMS_Incident_Dispatch_Data.csv
 EMS/
 manhattan_data.csv
 manhattan_sorted_data.csv
 .DS_Store
+get-pip.py
