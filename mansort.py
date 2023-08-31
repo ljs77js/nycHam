@@ -15,8 +15,8 @@ class DataFilter:
             self.df[column] = self.df[column].dt.strftime('%Y-%m-%d %H:%M:%S')
 
     def save(self, output_file):
-        # Save only the first 100 rows
-        self.df.head(100).to_csv(output_file, index=False)
+        # Save all rows instead of just the first 100
+        self.df.to_csv(output_file, index=False)
 
 # Using the class
 data_filter = DataFilter('./EMS_Incident_Dispatch_Data.csv')
